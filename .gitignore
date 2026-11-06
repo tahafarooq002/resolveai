@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# Data & Logs
+*.log
+logs/
+data/
+uploads/
+*.sqlite3
+*.db
+
+# Alembic
+# (keep versions, ignore runtime)
+
+# Qdrant / Vector
+qdrant_storage/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+
+# OS
+Thumbs.db
